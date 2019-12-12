@@ -10,6 +10,7 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -45,4 +46,67 @@ header .header-icons-container .icons{
 
 header .icons span{
     color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+nav .nav-logo-container img{
+width: 220px;
+margin-top: 10px;
+}
+
+nav .profile-link{
+    display:flex;
+align-items: center;
+justify-content: flex-end;
+margin-right: 50px;
+}
+
+nav .profile-link a {
+color: white;
+background-color: #48CFAD;
+padding: 0.5em 1em;
+border-radius: 5px;
+}
+
+main {
+    background-image: url('/assets/img/Cover.png');
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-repeat: no-repeat;
+}
+
+main .main-title {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+margin-bottom: 2em;
+}
+main .main-title h1{
+    color: white;
+    font-size: 56px;
+    text-align: center;
+}
+
+main .main-buttom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+main .main-buttom a{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    background-color: #48CFAD;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    
 }
