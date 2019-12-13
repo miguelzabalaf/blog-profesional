@@ -147,4 +147,8 @@ margin-bottom: 2em;
     nav .nav-logo-container img{
         text-align: center;
     }
+
+    .header-icons-container{
+        justify-content: center;
+    }
 }
