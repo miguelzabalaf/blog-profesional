@@ -72,11 +72,12 @@ margin-right: 50px;
 nav .profile-link a {
 color: white;
 background-color: #48CFAD;
+border-bottom: 3px solid rgb(57, 165, 138);
 padding: 0.5em 1em;
 border-radius: 5px;
 }
 
-main {
+.home-main {
     background-image: url('/assets/img/Cover.png');
     height: 100%;
     display: grid;
@@ -84,28 +85,30 @@ main {
     background-repeat: no-repeat;
 }
 
-main .main-title {
+.home-main .main-title {
 display: flex;
 justify-content: center;
 align-items: flex-end;
 margin-bottom: 2em;
 }
-main .main-title h1{
+.home-main .main-title p{
     color: white;
     font-size: 56px;
+    font-weight: 600;
     text-align: center;
 }
 
-main .main-buttom {
+.home-main .main-buttom {
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-main .main-buttom a{
+.home-main .main-buttom a{
     color: white;
     font-size: 24px;
     text-align: center;
     background-color: #48CFAD;
+    border-bottom: 3px solid rgb(57, 165, 138);
     padding: 0.5em 1em;
     border-radius: 5px;
     
